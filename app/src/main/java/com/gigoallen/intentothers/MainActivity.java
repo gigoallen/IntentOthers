@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()){
             case R.id.btnEmail:
                 intent.setData(Uri.parse("mailto:gigo@hk.edu.tw"));
-                intent.putExtra(Intent.EXTRA_SUBJECT, "好久不見!");
-                intent.putExtra(Intent.EXTRA_TEXT, "最近好嗎?基哥");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "中午到了!");
+                intent.putExtra(Intent.EXTRA_TEXT, "一起吃飯?基哥");
 
                 break;
             case R.id.btnWeb:
